@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	padding: 20px;
+}
+
+nav a {
+	color: #821907;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+img{
+	width: 100%;
+}
+
+h1, h2, h3, h4 {
+	color: #333333;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 36px;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 24px;
+	padding: 20px;
+}
+
+p {
+	color: #444444;
+	font-size: 18px;
+	padding: 20px;
+}
+
+ul {
+	color: #444444;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+#slogan {
+	font-style: italic;
+}
