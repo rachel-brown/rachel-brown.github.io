@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+@font-face {
+	font-family:'Muller';
+	src: url(../fonts/Muller-Regular-webfont.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #555;
+	font-family:'Muller', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	padding: 2em;
+}
+
+img{
+	width: 100%;
+}
+
+a { 
+	color: #821907;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+ }
+
+nav a {
+	font-size: 1.25em;
+	padding: 2em;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding: .5em 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+p {
+	font-size: 1em;
+	padding-bottom: .5em;
+}
+
+ul {
+	padding-left:1em;
+}
+
+.wrapper {
+
+}
+
+.service {
+	padding: 2em;
+}
+
+.caption {
+	font-style: italic;
+}
+
+#hero{
+	color: #fff;
+	text-align: center;
+	padding: 16em 0;
+	background-image: url(../images/campaign.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
+}
+
+#herotitle {
+	color: #fff;
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+#herotext {
+	font-size: 1.5em;
+}
+
+#services {
+	width: 30em;
+	margin: 2em auto;
+	text-align: center;
+}
+
+#about {
+	text-align: left;
+	background-color: #ccc;
+	padding: 2em;
+}
+
+#aboutoverview {
+	width: 620px;
+}
+
+
+#aboutbio {
+	width: 300px;
+	text-align: center;
+}
+
+#footerheading {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+#smallcopy {
+	color: #777;
+	font-size: .75em;
+}
