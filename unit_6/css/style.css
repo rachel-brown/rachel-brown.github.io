@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+@font-face {
+	font-family:'Muller';
+	src: url(../fonts/Muller-Regular-webfont.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #555;
+	font-family:'Muller', sans-serif;
+	font-size: 18px;  /*1em = 18px*/
+	line-height: 1.5em;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto .5em auto;
+}
+
+footer {
+	padding: 2em 0;
+	clear: both;
+}
+
+img{
+	width: 100%;
+}
+
+a { 
+	color: #821907;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+ }
+
+nav a {
+	font-size: 1.25em;
+	padding: .5em 2em;
+	/*background: blue;*/
+	margin: .5em;
+}
+
+a:hover {
+	color: #333;
+}
+
+a.button:hover {
+	color: #fff;
+	background: #333;
+}
+
+a#navbutton:hover {
+	color: #fff;
+	background: #333;
+}
+
+a#herobutton:hover {
+	color: #fff;
+	background: #821907;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	/*padding: 0 0 .5em 0;*/
+	margin: .5em 0;
+}
+
+h1 {
+	font-size: 3em;
+	padding-bottom: .5em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+	/*background: purple;*/
+}
+
+p {
+	font-size: 1em;
+	margin: .5em 0;
+}
+
+ul {
+	padding-left:1em;
+}
+
+hr {
+	background-color: #bbb;
+	border: none;
+	height: 6px;
+	width: 6em;
+	margin: 1em auto;
+}
+
+.wrapper {
+	width: 85%;
+	padding: 2em 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.button {
+	color: #fff;
+	background: #821907;
+	padding: 1em 2em;
+	/*margin: 2em 0 0 0;*/
+	display: inline-block;
+}
+
+.service {
+	width: 46%;
+	margin: 2%;
+	float: left;
+}
+
+.service img {
+	max-width: 920px;
+}
+
+.about {
+	float: left;
+}
+
+.caption {
+	font-size: .75em;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+#navbutton {
+	/*font-size: 1em;*/
+	color: #fff;
+	background: #821907;
+	/*padding: 1em 2em;*/
+}
+
+#hero {
+	color: #fff;
+	text-align: center;
+	padding: 12em 0;
+	background-image: url(../images/campaign.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85vh;
+}
+
+#herocontent {
+	width: 65%;
+	padding: 2em;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.75);
+}
+
+#herotitle {
+	color: #fff;
+	font-size: 4em;
+	line-height: 1em;
+	background: none;
+	padding: 0;
+	margin: 0 0 .25em 0;
+	border: none;
+}
+
+#herotext {
+	font-size: 1.25em;
+	line-height: 1.25em;
+	padding: 0;
+	margin: 0 0 .5em 0;
+}
+
+#herobutton {
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 1em 2em;
+	margin: .5em 0 0 0;
+	display: inline-block;
+}
+
+#aboutsection {
+	background-color: #ccc;
+	clear: both;
+}
+
+#aboutbox{
+	padding: 2em;
+	margin: 2em 0;
+	background: rgba(0,0,0,0.1);
+}
+
+#aboutsubsection {
+	width: 62%;
+	margin: 2%;
+	text-align: left;
+}
+
+#aboutbio {
+	width: 29%;
+	margin: 2%;
+	/*background: #333;*/
+}
+
+#aboutbio img {
+	width: 65%;
+}
+
+#footerwrapper {
+	width: 100%;
+	float: left;
+}
+
+#footercontact {
+	width: 71%;
+	margin: 2%;
+	background: blue;
+}
+
+#footerfacebook {
+	width: 21%;
+	margin: 2%;
+	background: purple;
+}
+
+#footerheading {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+#smallcopy {
+	color: #777;
+	font-size: .75em;
+}
