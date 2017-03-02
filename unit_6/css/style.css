@@ -15,17 +15,23 @@ body {
 	color: #555;
 	font-family:'Muller', sans-serif;
 	font-size: 18px;  /*1em = 18px*/
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 header {
 	text-align: center;
-	margin: 0 auto .5em auto;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 2em;
+	margin-right: 2em;
+	float: right;
 }
 
 footer {
 	padding: 2em 0;
-	clear: both;
+	/*clear: both;*/
 }
 
 img{
@@ -42,7 +48,6 @@ a {
 nav a {
 	font-size: 1.25em;
 	padding: .5em 2em;
-	/*background: blue;*/
 	margin: .5em;
 }
 
@@ -68,6 +73,7 @@ a#herobutton:hover {
 h1, h2, h3, h4 {
 	font-family: 'Roboto Condensed', Arial, sans-serif;
 	color: #333;
+	line-height: 1;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	/*padding: 0 0 .5em 0;*/
@@ -76,7 +82,9 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3em;
-	padding-bottom: .5em;
+	margin-left: .75em;
+	/*padding-bottom: .5em;*/
+	float: left;
 }
 
 h2 {
@@ -90,11 +98,16 @@ h3 {
 
 p {
 	font-size: 1em;
+	/*margin: .5em 0;*/
+}
+
+p + p {
 	margin: .5em 0;
 }
 
 ul {
 	padding-left:1em;
+	list-style-type: initial;
 }
 
 hr {
@@ -145,7 +158,7 @@ hr {
 
 .caption {
 	font-size: .75em;
-	line-height: 1.5em;
+	/*line-height: 1.5em;*/
 	font-style: italic;
 }
 
@@ -176,7 +189,7 @@ hr {
 #herotitle {
 	color: #fff;
 	font-size: 4em;
-	line-height: 1em;
+	/*line-height: 1em;*/
 	background: none;
 	padding: 0;
 	margin: 0 0 .25em 0;
@@ -185,7 +198,7 @@ hr {
 
 #herotext {
 	font-size: 1.25em;
-	line-height: 1.25em;
+	/*line-height: 1.25em;*/
 	padding: 0;
 	margin: 0 0 .5em 0;
 }
@@ -218,28 +231,28 @@ hr {
 #aboutbio {
 	width: 29%;
 	margin: 2%;
-	/*background: #333;*/
 }
 
 #aboutbio img {
 	width: 65%;
 }
 
-#footerwrapper {
+/*#footerwrapper {
 	width: 100%;
-	float: left;
-}
+}*/
 
 #footercontact {
 	width: 71%;
 	margin: 2%;
-	background: blue;
+	float: left;
 }
 
 #footerfacebook {
 	width: 21%;
 	margin: 2%;
-	background: purple;
+	float: left;
+	text-align: right;
+	/*padding-top: .5em;*/
 }
 
 #footerheading {
