@@ -90,6 +90,7 @@ h3 {
 
 p {
 	font-size: 1em;
+	/*max-width: 800px;*/
 }
 
 p + p {
@@ -132,6 +133,11 @@ hr {
 	display: inline-block;
 }
 
+.introcopy {
+	width: 45em;
+	margin: 0 auto;
+}
+
 .service {
 	width: 50%;
 	padding: 2em;
@@ -161,6 +167,7 @@ hr {
 	text-align: center;
 	padding: 12em 0;
 	background-image: url(../images/campaign.jpg);
+	background-attachment:fixed;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
